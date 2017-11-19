@@ -1,0 +1,1 @@
+cube(X) :- Y is abs(X)^(1/3), floor(Y) =:= integer(Y). 
